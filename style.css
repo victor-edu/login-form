@@ -1,0 +1,97 @@
+
+*{font-family: 'Roboto', sans-serif;}
+
+
+
+.container{
+    background: #f8f9fd;
+
+}
+h1{
+
+    text-align: center;
+    margin-bottom: 40px;
+  
+}
+
+
+.caixa{
+    margin: 0 auto;
+    width: 430px;
+    height: 430px;
+    padding-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icone{
+    width: 80px;
+    height: 80px;
+    font-size: 2em;
+    margin: 0 auto;
+    border: solid #1089ff;
+    border-radius: 50% ;
+    background: #1089ff;
+    color: white;
+    text-align: center;     
+    
+}
+
+i{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    color: rgb(75, 80, 85);   
+}
+
+.formulario{
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 80%;
+    height: 3em;
+    font-size: 0.9em;
+    border-radius: 3px;
+    border: 0.5px solid rgb(173, 165, 165);
+    padding-left: 0.5em;
+}
+
+
+.botao{
+    font-size: 1.1em;
+    width: 82%;
+    height: 3em;
+    margin-top: 10px;
+    margin-left: 35px;
+    background:#1089ff ;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.relembra{
+    margin-left: 30px;
+    display: inline;
+    margin-right: 105px;   
+    color: #1089ff;
+
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    }
+input{
+margin-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #1089ff;
+}
+
+
+.icone-olho{
+    color: rgb(75, 80, 85);
+    margin-left: -30px;
+}
+
+

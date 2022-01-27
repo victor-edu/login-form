@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <body>
+        <div class="container">
+            
+           
+            <h1>Login #01</h1>
+
+            <div class="caixa">
+                 <div class="icone"><i class="far fa-user"></i></div>
+                <h2>Sing In</h2>
+                <form action="">
+                    <input class="formulario" type="text" required placeholder="Username">
+                    <br>
+                    <input id='senha' class="formulario" type="password" required placeholder="Password">
+                    <i class="fas fa-eye icone-olho" onclick="mostrarOcultarsenha()"></i>
+                    <br>
+                    <button class="botao" type="submit">Login</button>
+                    <br>
+                    <div class="relembra">
+                        <input  id="remember" type="checkbox">
+                        <label for="remember">Remember me</label> 
+                    </div>  
+                   
+                    <a href="#">Forgot password</a>                    
+                </form>
+            </div>
+        </div>
+            
+        <script>
+            function mostrarOcultarsenha(){
+                // console.log("print");
+                var senha=document.getElementById("senha")
+                if(senha.type=="password"){
+                    senha.type="text";
+                    document.querySelector('.icone-olho').classList.add('fa-eye-slash');
+                    document.querySelector('.icone-olho').classList.remove('fa-eye');
+                }else{
+                    senha.type="password";
+                    document.querySelector('.icone-olho').classList.remove('fa-eye-slash');
+                    document.querySelector('.icone-olho').classList.add('fa-eye');
+                }
+            }
+        </script>
+    
+    </body>
+</html>
